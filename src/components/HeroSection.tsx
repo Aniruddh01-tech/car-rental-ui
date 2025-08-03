@@ -29,7 +29,7 @@ const HeroSection = () => (
             Premium Car Rental Service
           </h1>
           <div className=" rounded-xl p-8 shadow-xl">
-            <p className="text-xl md:text-2xl text-black font-light">
+            <p className="text-xl md:text-2xl text-white font-light">
               Experience luxury and comfort with AB Ghule Cabs. Choose from our fleet of well-maintained vehicles for your journey across Mumbai and beyond.
             </p>
             <div className="flex flex-wrap gap-6 justify-center mt-8">
