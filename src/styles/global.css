@@ -1,0 +1,24 @@
+.responsive-text {
+      color:white; /* Default color */
+    }
+
+    /* Small screens (less than 600px) */
+    @media (max-width: 599px) {
+      .responsive-text {
+        color:black;
+      }
+    }
+
+    /* Medium screens (600px to 1023px) */
+    @media (min-width: 600px) and (max-width: 1023px) {
+      .responsive-text {
+        color:black;
+      }
+    }
+
+    /* Large screens (1024px and up) */
+    @media (min-width: 1024px) {
+      .responsive-text {
+        color: white;
+      }
+    }

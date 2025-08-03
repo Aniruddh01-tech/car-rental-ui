@@ -25,11 +25,11 @@ const HeroSection = () => (
     <div className="relative z-20 container mx-auto px-4 py-24">
       <div className="max-w-3xl mx-auto text-center">
         <div className="animate-fade-in space-y-6">
-          <h1 className="text-4xl md:text-6xl font-bold text-black mb-6 drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
             Premium Car Rental Service
           </h1>
           <div className=" rounded-xl p-8 shadow-xl">
-            <p className="text-xl md:text-2xl text-white font-light">
+            <p className="text-xl md:text-2xl text-black sm:text-white font-light">
               Experience luxury and comfort with AB Ghule Cabs. Choose from our fleet of well-maintained vehicles for your journey across Mumbai and beyond.
             </p>
             <div className="flex flex-wrap gap-6 justify-center mt-8">
@@ -39,7 +39,7 @@ const HeroSection = () => (
                 Book Now
               </button>
               <button 
-                className="bg-white/10 backdrop-blur-sm border-2 border-white text-white font-bold px-10 py-4 rounded-full hover:bg-white/20 transition-all hover:shadow-lg"
+                className="bg-white/10 backdrop-blur-sm border-2 border-black sm:border-white text-black sm:text-white font-bold px-10 py-4 rounded-full hover:bg-white/20 transition-all hover:shadow-lg"
               >
                 View Fleet
               </button>
